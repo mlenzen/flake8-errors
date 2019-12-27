@@ -1,9 +1,10 @@
-Compilation of all Flake8 Errors
-================================
+==================================
+ Compilation of all Flake8 Errors
+==================================
 
 .. csv-table:: Flake8 Errors
     :header: Section,Code,Example Message,Default,Source
-    :widths: 8, 5, 20, 3, 10
+    :widths: 8, 5, 20, 3, 5
 
     C9,C901,'function' is too complex (##),✔,pyflakes_
     Missing Docstrings,D100,Missing docstring in public module,✔,pydocstyle_
@@ -172,6 +173,13 @@ Compilation of all Flake8 Errors
 
 Sources
 -------
+
+* pydocstyle_ - a tool to check your Python code against some of the style conventions in PEP 8
+* pyflakes_- A simple program which checks Python source files for errors.
+* pycodestyle_ - a tool to check your Python code against some of the style conventions in PEP 8
+
+TODO: Extract codes from external plugins:
+https://github.com/DmytroLitvinov/awesome-flake8-extensions
 
 .. _pydocstyle: http://www.pydocstyle.org/en/latest/error_codes.html
 .. _pyflakes: http://flake8.pycqa.org/en/latest/user/error-codes.html
